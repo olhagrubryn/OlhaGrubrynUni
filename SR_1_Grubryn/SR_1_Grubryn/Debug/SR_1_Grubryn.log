@@ -1,3 +1,0 @@
-﻿  2.cpp
-c:\users\user\desktop\sr_1_grubryn\sr_1_grubryn\2.cpp(17): error C2065: 's': undeclared identifier
-c:\users\user\desktop\sr_1_grubryn\sr_1_grubryn\2.cpp(18): error C2146: syntax error: missing ';' before identifier 'n'
