@@ -1,0 +1,4 @@
+﻿  2.cpp
+c:\users\user\desktop\sr_1_grubryn\sr_1_grubryn\2.cpp(23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  SR_1_Grubryn.vcxproj -> C:\Users\User\Desktop\SR_1_Grubryn\Debug\SR_1_Grubryn.exe
+  SR_1_Grubryn.vcxproj -> C:\Users\User\Desktop\SR_1_Grubryn\Debug\SR_1_Grubryn.pdb (Partial PDB)
