@@ -40,13 +40,25 @@ int main() {
 		}
 
 		cout << "==============================" << endl;
+		int **arr = new int*[height];
+		for (int i = 0; i<height; i++)
+		{
+			arr[i] = new int[width];
+			int m = 0;
+			for (int j = width - 1; j>-1; j--){
+				
+				arr[i][m] = mtrx[i][j];
+				m++;
+			}
+		}
+
 		cout << "Змінено " << endl;
 		for (int i = 0; i<height; i++)
 		{
-			for (int j = width-1; j>-1; j--)
+			for (int j = 0; j<width; j++)
 			{
 				
-				cout << mtrx[i][j] << "  ";
+				cout << arr[i][j] << "  ";
 			}
 			cout << endl;
 		}
@@ -67,7 +79,7 @@ int main() {
 //2  4  5  5
 //1  7  1  1
 //==============================
-//Çì³íåíî
+//Змінено
 //0  4  7  1
 //8  8  4  9
 //5  5  4  2
