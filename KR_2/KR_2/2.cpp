@@ -21,7 +21,18 @@ int main2() {
 		mtrx[i] = new int[size];
 		for (int j = 0; j<size; j++)
 		{
-			mtrx[i][j] = rand() % 9;
+			cin >> mtrx[i][j];
+
+		}
+	}
+
+
+	for (int i = 0; i<size; i++)
+	{
+
+		for (int j = 0; j<size; j++)
+		{
+
 			cout << mtrx[i][j] << "  ";
 		}
 		cout << endl;
@@ -35,7 +46,7 @@ int main2() {
 		mtrx[size - i - 1][i] = tmp;
 	}
 	cout << "==============================" << endl;
-	cout << "Çì³íåíî " << endl;
+	cout << "Ð—Ð¼Ñ–Ð½ÐµÐ½Ð¾ " << endl;
 	for (int i = 0; i < size; i++) {
 		for (int j = 0; j < size; j++) {
 			cout << mtrx[i][j] << "  ";
@@ -55,7 +66,7 @@ int main2() {
 //7  6  7  5
 //
 //==============================
-//Çì³íåíî
+//Ã‡Ã¬Â³Ã­Ã¥Ã­Ã®
 //7  8  7  5
 //8  2  8  0
 //7  1  3  2
