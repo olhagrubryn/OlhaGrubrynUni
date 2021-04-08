@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int main3() {
+int main() {
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
 	
@@ -22,15 +22,25 @@ int main3() {
 			mtrx[i] = new int[width];
 			for (int j = 0; j<width; j++)
 			{
-				mtrx[i][j] = rand() % 10;
+				cin >> mtrx[i][j];
+				
+			}
+		}
+
+
+		for (int i = 0; i<height; i++)
+		{
+			
+			for (int j = 0; j<width; j++)
+			{
+				
 				cout << mtrx[i][j] << "  ";
 			}
 			cout << endl;
 		}
 
-
 		cout << "==============================" << endl;
-		cout << "Çì³íåíî " << endl;
+		cout << "Ð—Ð¼Ñ–Ð½ÐµÐ½Ð¾ " << endl;
 		for (int i = 0; i<height; i++)
 		{
 			for (int j = width-1; j>-1; j--)
@@ -57,7 +67,7 @@ int main3() {
 //2  4  5  5
 //1  7  1  1
 //==============================
-//Çì³íåíî
+//Ã‡Ã¬Â³Ã­Ã¥Ã­Ã®
 //0  4  7  1
 //8  8  4  9
 //5  5  4  2
