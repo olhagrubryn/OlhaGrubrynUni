@@ -1,0 +1,4 @@
+﻿  1.cpp
+d:\уні\основи програмування с++\c-\tests\kr_2_grubryn\kr_2\kr_2\1.cpp(44): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  KR_2.vcxproj -> D:\уні\основи програмування С++\c-\Tests\KR_2_Grubryn\KR_2\Debug\KR_2.exe
+  KR_2.vcxproj -> D:\уні\основи програмування С++\c-\Tests\KR_2_Grubryn\KR_2\Debug\KR_2.pdb (Partial PDB)
