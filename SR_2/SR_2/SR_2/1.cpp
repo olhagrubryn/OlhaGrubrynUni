@@ -8,11 +8,6 @@
 #define MAX_LEN 200
 using namespace std;
 
-bool num(char elem)
-{
-	return (elem > '0' && elem < '9');
-}
-
 
 
 int main2()
@@ -21,29 +16,27 @@ int main2()
 	SetConsoleCP(1251);
 	char* line = new char[MAX_LEN];
 	char* str = new char[MAX_LEN];
-	cout << "Ââåä³òü ";
+	cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ ";
 
 	cin.getline(str, MAX_LEN);
-	line = str;
+	
 
 
 	char* str2 = new char[MAX_LEN];
-	int m = 0;
-	bool tr;
+	int m = 0, n=0;
+	
 
-	for (int i = 0; str[i] != '\0'; i++)
+	while (str[i] != '\0')
 	{
-		tr = num(str[i]) && (str[i] == str[i - 1]);
-
-		if (tr)
-		{
-			continue;
-		}
+		if (num(str[i]) && (str[i] == str[i + 1]))
+		{continue;}
 		str2[m + 1] = str[i];
+		n++;
 	}
 
 	str2[m] = '\0';
-	cout << str2 << endl;
+	cout <<"str2"<<str2 << endl;
+	
 	system("pause");
 	return 0;
 }
