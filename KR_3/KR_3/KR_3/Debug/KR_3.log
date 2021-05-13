@@ -1,0 +1,5 @@
+﻿  2.cpp
+c:\users\user\desktop\kr_3\kr_3\kr_3\2.cpp(70): warning C4715: 'OpenAndGet2': not all control paths return a value
+c:\users\user\desktop\kr_3\kr_3\kr_3\2.cpp(39): warning C4715: 'OpenAndGet1': not all control paths return a value
+  KR_3.vcxproj -> C:\Users\User\Desktop\KR_3\KR_3\Debug\KR_3.exe
+  KR_3.vcxproj -> C:\Users\User\Desktop\KR_3\KR_3\Debug\KR_3.pdb (Partial PDB)
